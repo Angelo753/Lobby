@@ -1,0 +1,75 @@
+settings:
+  mysql:
+    host:
+    port:
+    database:
+    user:
+    password:
+  spawn:
+    x: 516.9176540294125
+    y: 68.0
+    z: -128.21723415467065
+    yaw: 107.00524
+    pitch: 39.873337
+    world: world
+menus:
+  admin:
+    size: 54
+    title: '&8Administracni panel!'
+    commands:
+      - '/adminpanel'
+      - '/ap'
+      - '/panel'
+    items:
+      '1':
+        name: 'test&5icek'
+        slot: 0
+        data: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjE1ZGYxOTk3MzcyMDNjZDVhYzZiODc5NGVhZTYwYTZiNjkwNjM4OTU3MGMwOWU3MDk5NzIwM2FmMDkyNDdiZSJ9fX0=
+        custom_head: true
+        lore:
+          - '&cl1'
+          - l2
+      '5':
+        name: Test2
+        slot: 50
+        data: DIAMOND_AXE
+        custom_head: false
+        actions:
+          - 'MESSAGE;&cAhoj %player_name%!'
+          - 'CONSOLE;say kill %player_name%'
+          - 'PLAYER;Ahoj'
+          - 'PLAYER;/tp %player_name%'
+        lore:
+          - l&c1
+          - l2
+
+  test:
+    size: 9
+    title: '&8Aaasdasddministracni panel!test'
+    commands:
+      - '/test'
+    items:
+      '1':
+        name: 'test&5icektest'
+        slot: 0
+        data: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjE1ZGYxOTk3MzcyMDNjZDVhYzZiODc5NGVhZTYwYTZiNjkwNjM4OTU3MGMwOWU3MDk5NzIwM2FmMDkyNDdiZSJ9fX0=
+        custom_head: true
+        lore:
+          - '&cl1'
+          - l2
+      '5':
+        name: Test2
+        slot: 8
+        data: DIAMOND_AXE
+        custom_head: false
+        actions:
+          - 'MESSAGE;&cAhoj %player_name%!'
+          - 'CONSOLE;kill %player_name%'
+        lore:
+          - l&c1
+          - l2
+messages:
+  join:
+    - asdokj
+    - alks&5djasd
+    - ' &4as;lkdjasdj'

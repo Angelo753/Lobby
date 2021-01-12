@@ -1,0 +1,12 @@
+name: AngelLobbyCode
+version: @version@
+main: cz.angelo.angellobbycode.Main
+api-version: 1.16
+authors: [ Angelo753 ]
+softdepend: [PlaceholderAPI]
+commands:
+  triplhub:
+  buildmode:
+  fly:
+  setspawn:
+  menu:
